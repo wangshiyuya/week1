@@ -1,0 +1,96 @@
+* {
+    // background: pink;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section {
+    width: 100%;
+    height: 660px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .banner {
+        width: 100%;
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+    .inp {
+        width: 60%;
+        height: 40%;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-around;
+        h4 {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #d13128;
+            // background: #fff;
+            color: #d13128;
+            text-align: center;
+            line-height: 40px;
+            border-radius: 25px;
+        }
+        h4:nth-child(2) {
+            margin: 10px 0;
+        }
+        p {
+            text-align: center;
+        }
+    }
+    .list {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        .cav {
+            width: 100%;
+            text-align: center;
+            color: #8f8f8f;
+        }
+        .lis {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            dl {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                dt {
+                    color: #666666;
+                    border: 1px solid #8f8f8f;
+                    padding: 4px 6px;
+                    border-radius: 50%;
+                }
+                dd {
+                    color: #8f8f8f;
+                }
+            }
+        }
+    }
+}
